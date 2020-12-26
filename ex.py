@@ -171,6 +171,8 @@ if __name__ == "__main__":
     elif options.poldeg == 2:
         pol02()
     else :
+        parser.print_help()
+        print('parser.usage = ',parser.usage)
         print(options)
         print(type(options))
         print(args)
